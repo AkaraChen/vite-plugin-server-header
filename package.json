@@ -17,7 +17,7 @@
 	"author": "Akara Chen",
 	"license": "MIT",
 	"devDependencies": {
-		"@akrc/tsconfig": "^1.0.0",
+		"@akrc/tsconfig": "^1.0.2",
 		"@biomejs/biome": "1.7.1",
 		"@types/node": "^20.12.7",
 		"publint": "^0.2.7",

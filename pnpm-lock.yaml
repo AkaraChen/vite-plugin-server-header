@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@akrc/tsconfig':
-        specifier: ^1.0.0
-        version: 1.0.0
+        specifier: ^1.0.2
+        version: 1.0.2
       '@biomejs/biome':
         specifier: 1.7.1
         version: 1.7.1
@@ -38,8 +38,8 @@ importers:
 
 packages:
 
-  '@akrc/tsconfig@1.0.0':
-    resolution: {integrity: sha512-6G6zeLu9+2rDAK4obtrjiFs/GXCX8AyFkZgjm/Z5EeiEHkmF2pur2sMmbyC/I2Spf0x1V8DxTIBU0ojr0x5LSw==}
+  '@akrc/tsconfig@1.0.2':
+    resolution: {integrity: sha512-pIyaygWQBJxVqvSvUoWTM6mMBHWsssPFfJFsnAsoSn3/xDA48Px1wwkNolme3gVtmXNkm1Cz1xkTUsk355s4/Q==}
 
   '@biomejs/biome@1.7.1':
     resolution: {integrity: sha512-wb2UNoFXcgaMdKXKT5ytsYntaogl2FSTjDt20CZynF3v7OXQUcIpTrr+be3XoOGpoZRj3Ytq9TSpmplUREXmeA==}
@@ -1227,7 +1227,7 @@ packages:
 
 snapshots:
 
-  '@akrc/tsconfig@1.0.0': {}
+  '@akrc/tsconfig@1.0.2': {}
 
   '@biomejs/biome@1.7.1':
     optionalDependencies:
