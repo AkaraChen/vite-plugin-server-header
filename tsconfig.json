@@ -1,0 +1,6 @@
+{
+	"extends": "@akrc/tsconfig/node.json",
+	"compilerOptions": {
+		"lib": ["DOM", "DOM.Iterable", "ESNext"]
+	}
+}

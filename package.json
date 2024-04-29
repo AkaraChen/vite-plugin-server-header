@@ -1,0 +1,38 @@
+{
+	"name": "vite-plugin-server-header",
+	"version": "1.0.0",
+	"description": "A Vite plugin to add custom headers to the server",
+	"type": "commonjs",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"test": "vitest",
+		"build": "tsup",
+		"fmt": "biome check . --apply",
+		"lint": "publint",
+		"prepublish": "npm run build && npm run lint"
+	},
+	"keywords": ["vite", "plugin", "server", "header"],
+	"author": "Akara Chen",
+	"license": "MIT",
+	"devDependencies": {
+		"@akrc/tsconfig": "^1.0.0",
+		"@biomejs/biome": "1.7.1",
+		"@types/node": "^20.12.7",
+		"publint": "^0.2.7",
+		"tslib": "^2.6.2",
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.5",
+		"vite": "^5.2.10",
+		"vitest": "^1.5.2"
+	},
+	"exports": {
+		".": {
+			"types": "./dist/index.d.mts",
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.js"
+		}
+	},
+	"files": ["dist"]
+}
